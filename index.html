@@ -43,7 +43,7 @@ function statBar(label,val){return`<div class="stat"><div class="stat-top"><span
 function task(k,l){return`<div class="${state.tasks[k]?'task done':'task'}">${state.tasks[k]?'✅':'⬜'} ${l}</div>`}
 function renderStart(){app.innerHTML=`<div class="page center">
 <div class="card hero" style="background:linear-gradient(180deg,#ffffff,#f8fbff);border-radius:32px;padding:40px 28px;">
-
+<img src="dogbalance-logo.png" style="width:220px;max-width:85%;margin-bottom:10px;" />
 <h1 style="font-size:64px;font-weight:900;margin:0;color:#0f172a;letter-spacing:-3px;line-height:1;">
   Dog<span style="color:#2563eb;">Balance</span>
 </h1>
@@ -54,8 +54,9 @@ function renderStart(){app.innerHTML=`<div class="page center">
   <div style="width:70px;height:4px;background:#2563eb;border-radius:99px;margin:12px auto 24px;"></div>
 
   <h2 style="font-size:28px;margin:0 0 12px;color:#0f172a;">
-    שגרה נכונה היא הבסיס לכלב רגוע ומאוזן
-  </h2>
+<p style="font-size:20px;color:#64748b;margin:14px 0 28px 0;font-weight:600;">
+  מבית שלום לכלב
+</p>  </h2>
 
   <p style="font-size:19px;line-height:1.8;color:#475569;max-width:760px;margin:0 auto 16px;">
 כלי דיגיטלי לבניית שגרה מותאמת אישית לכלב שלך. לאיזון מושלם בין אנרגיה, רוגע, פריקה מנטלית, למידה וקשר.<br><br>
